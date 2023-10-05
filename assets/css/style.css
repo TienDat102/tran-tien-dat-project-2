@@ -408,7 +408,6 @@ body {
     text-align: center;
     position: relative;
   }
-  
   .section-8 .inner-box .inner-content::after {
     content: "";
     display: inline-block;
@@ -432,10 +431,17 @@ body {
   .section-8 .inner-box .inner-content p {
     font-size: 36px;
     margin-bottom: 15px;
+    
   }
   .section-8 .inner-box .inner-content span {
     font-weight: 500;
     font-size: 17px;
+  }
+  .section-8 .inner-box .inner-content .title{
+    transition: transform 0.2s ease;
+  }
+  .section-8 .inner-box .inner-content .title:hover {
+    transform: translateY(-10px);
   }
 /* end section-8 */
 /* section-9 */
